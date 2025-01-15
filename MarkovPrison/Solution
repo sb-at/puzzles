@@ -39,8 +39,8 @@ Transition Matrix for Guard 2:
  lookup to determine the best move to take at each step. We choose the move with the lowest risk that decreases the
  Manhattan distance to the goal, which is room 16.
 
-
  G1: [0.05333333 0.05333333 0.05333333 0.05333333 0.06666667 0.06666667, 0.06666667 0.06666667 0.06666667 0.06666667 0.06666667 0.06666667, 0.08       0.08       0.08       0.08      ]
  G2: [0.08       0.08666667 0.08666667 0.09333333 0.06       0.06666667, 0.06666667 0.07333333 0.06       0.06666667 0.06666667 0.07333333, 0.04       0.04666667 0.04666667 0.05333333]
 
- The best path is going all the way down, then all the way right to reach the exit.
+ The best path is: 1 -> 5 -> 9 -> 13 -> 14 -> 15 -> 16.
+ The probability of successful escape is 0.39666452120417267.
